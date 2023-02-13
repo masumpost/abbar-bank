@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-4xl md:text-6xl font-bold text-center my-8">Here Is <span class="text-green-500">Your Moneyeeeee</span>!!!</h1>
+<main>
+    <section>
+        <div class="grid md:grid-cols-3 gap-4 w-9/12 mx-auto">
+            <div class="bg-blue-400 rounded-lg px-8 py-8">
+                <h2 class="4xl font-bold">Deposit</h2>
+                <h1 class="text-6xl font-semibold">$<span class="total-deposit">00</span></h1>
+            </div>
+            <div class="bg-red-400 rounded-lg px-8 py-8">
+                <h2 class="4xl font-bold">Withdraw</h2>
+                <h1 class="text-6xl font-semibold">$<span>00</span></h1>
+            </div>
+            <div class="bg-green-400 rounded-lg px-8 py-8">
+                <h2 class="4xl font-bold">Money</h2>
+                <h1 class="text-6xl font-semibold">$<span>1255</span></h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid md: grid-cols-2 w-full md:w-9/12 gap-4 mx-auto mt-10">
+            <div class="p-8 bg-orange-400 rounded-lg">
+                <h1 class="text-2xl font-semibold my-2">Please Deposit</h1>
+                <input id="deposit-input" class="block w-9/12 rounded-lg h-10" type="number">
+                <button id="deposit-btn" class="bg-green-700 px-4 py-2 font-semibold rounded-lg mt-4">Deposit</button>
+            </div>
+            <div class="p-8 bg-amber-700 rounded-lg">
+                <h1 class="text-2xl font-semibold my-2">Please Withdraw</h1>
+                <input class="block w-9/12 rounded-lg h-10" type="number">
+                <button id="withdraw-btn" class="bg-red-700 px-4 py-2 font-semibold rounded-lg mt-4">Withdraw</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<!-- js file -->
+<script src="js/main.js"></script>
+<script src="js/diposit.js"></script>
+</body>
+</html>
